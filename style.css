@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap");
+/* Color scheme
+
+    #004F2D green
+    #1c352d  medium jungle green
+    #34e0a1 bright green
+    #D87CAC deep pink
+    #F9B9C3 pink
+    #FFDA22 mustard
+    #BCD8C1 dove blue
+
+    font-family: 'Noto Serif', serif;
+
+*/
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  width: 100vw;
+  background-color: ghostwhite;
+  font-family: "Noto Serif", serif;
+}
+
+.container {
+  width: 500px;
+  padding: 60px;
+  background-color: #1c352d;
+  border: 4px solid #d87cac;
+  border-radius: 8px;
+  margin: 40px auto;
+}
+
+h2 {
+  margin: 0;
+  color: #d87cac;
+  font-size: 24px;
+  line-height: 1.6em;
+}
+
+#heading-span {
+  font-size: 48px;
+  color: #34e0a1;
+  margin: 0;
+}
+
+p {
+  margin: 20px 0;
+  color: white;
+  font-size: 18px;
+  font-style: italic;
+}
+
+button {
+  font: inherit;
+  margin: 30px 0;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #f9b9c3;
+  font-weight: 700;
+  color: #1c352d;
+}
+
+hr {
+  height: 1px;
+  background-color: #34e0a1;
+  border: none;
+  margin: 20px 0;
+}
+
+.password {
+  display: inline-block;
+  margin-right: 4px;
+  background-color: #34e0a1;
+  padding: 8px 16px;
+  border-radius: 2px;
+}
